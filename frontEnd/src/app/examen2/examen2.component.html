@@ -7,18 +7,35 @@
   <div class="col-sm-4">
 
 
-
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-2">
 
     <br>
     <button mat-icon-button="car"  color="primary"
-            matBadge="8" matBadgePosition="before" matBadgeColor="accent">
+            matBadge="" matBadgePosition="before" matBadgeColor="accent">
       <mat-icon matBadgeColor="warn">shopping_cart</mat-icon>
     </button>
+  </div>
+  <div class="col-sm-2">
+
+    <br>
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle disabled value="italic"><mat-icon matBadgeColor="warn">perm_identity</mat-icon></mat-button-toggle>
+      <mat-button-toggle value="bold">Usuario</mat-button-toggle>
+    </mat-button-toggle-group>
 
   </div>
 
-
 </div>
+
+<!--<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input type="text" placeholder="Escriba aqui" aria-label="Number" matInput[formcontrol]="myControl" [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor ="let option of filteredOptions | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>-->

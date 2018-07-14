@@ -7,12 +7,13 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ButtonModule} from "primeng/button";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {
-  MatButtonModule,
+  MatAutocompleteModule,
+  MatButtonModule, MatButtonToggleModule,
   MatCheckboxModule,
-  MatChipsModule,
+  MatChipsModule, MatFormField, MatFormFieldModule,
   MatIcon,
   MatIconModule,
-  MatInputModule
+  MatInputModule, MatOptionModule
 } from "@angular/material";
 import { AutoresYLibrosComponent } from './autores-ylibros/autores-ylibros.component';
 import {CardModule, InputTextModule} from "primeng/primeng";
@@ -41,6 +42,11 @@ import {MatBadgeModule} from "@angular/material/badge";
     CardModule,
     MatBadgeModule,
     MatIconModule,
+    MatButtonToggleModule,
+    MatAutocompleteModule,
+    MatOptionModule,
+    MatFormFieldModule,
+
     TableModule
 
 

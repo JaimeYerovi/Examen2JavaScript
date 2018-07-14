@@ -1,4 +1,7 @@
 import {Component} from '@angular/core';
+import {Observable} from "rxjs/internal/Observable";
+import {FormControl} from "@angular/forms";
+import {map, startWith} from "rxjs/operators";
 
 @Component({
   selector: 'app-root', // Selector o etiqueta
@@ -8,8 +11,6 @@ import {Component} from '@angular/core';
 
 
 export class AppComponent {
-
-
 
   arregloAutores = [{
     nombres: '',
