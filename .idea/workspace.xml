@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="494950e2-2c6e-4cb0-8b8f-ad5caa7eaa7b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/frontEnd/src/app/app.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen2JavaScript/views/layouts/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Examen2JavaScript/views/layouts/layout.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/autores-ylibros/autores-ylibros.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/autores-ylibros/autores-ylibros.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/autores-ylibros/autores-ylibros.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/autores-ylibros/autores-ylibros.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="examen2.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="examen2.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="324">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -53,17 +34,6 @@
               <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -126,11 +96,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crear-usuario.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crear-usuario.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/crear-usuario/crear-usuario.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="408">
+              <caret line="24" column="8" lean-forward="true" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autores.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/autores/autores.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="libros.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/libros/libros.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -154,7 +142,6 @@
         <option value="$PROJECT_DIR$/frontEnd/src/app/Servicios/usuario-servicio.service.ts" />
         <option value="$PROJECT_DIR$/Examen2JavaScript/api/models/Usuario.js" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.ts" />
-        <option value="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.css" />
         <option value="$PROJECT_DIR$/Examen2JavaScript/api/models/Autor.js" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/app.component.html" />
@@ -164,6 +151,9 @@
         <option value="$PROJECT_DIR$/frontEnd/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/crear-usuario/crear-usuario.component.html" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/autores/autores.component.html" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/libros/libros.component.html" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html" />
       </list>
     </option>
   </component>
@@ -183,7 +173,7 @@
       <path value="$PROJECT_DIR$/frontEnd/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="25" />
     <option name="y" value="237" />
     <option name="width" value="1024" />
@@ -238,7 +228,15 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="crear-usuario" type="462c0819:PsiDirectoryNode" />
+              <item name="examen2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Examen2JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Examen2JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libros" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +277,12 @@
       <workItem from="1531441980212" duration="3912000" />
       <workItem from="1531518634314" duration="907000" />
       <workItem from="1531522021894" duration="10544000" />
-      <workItem from="1531769586486" duration="12767000" />
+      <workItem from="1531769586486" duration="15393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29231000" />
+    <option name="totallyTimeSpent" value="31857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,7 +549,7 @@
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>
@@ -575,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -594,8 +585,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/crear-usuario/crear-usuario.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="408">
+          <caret line="24" column="8" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/autores/autores.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/libros/libros.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/examen2/examen2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
         </state>
       </provider>
     </entry>

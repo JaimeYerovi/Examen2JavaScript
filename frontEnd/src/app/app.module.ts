@@ -24,13 +24,17 @@ import { LoginComponent } from './login/login.component';
 import {Rutas_App} from "./app.routes";
 import {Router, RouterModule} from "@angular/router";
 import { CrearUsuarioComponent } from './crear-usuario/crear-usuario.component';
+import { AutoresComponent } from './autores/autores.component';
+import { LibrosComponent } from './libros/libros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Examen2Component,
     LoginComponent,
-    CrearUsuarioComponent
+    CrearUsuarioComponent,
+    AutoresComponent,
+    LibrosComponent
   ], // Definir todos los componentes a usarse
      // Definin todos los pipes -> transforman datos
   imports: [
