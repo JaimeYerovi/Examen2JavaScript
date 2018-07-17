@@ -19,6 +19,8 @@
   </div>
   <div class="col-sm-2">
 
+
+
     <br>
     <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
       <mat-button-toggle disabled value="italic"><mat-icon matBadgeColor="warn">perm_identity</mat-icon></mat-button-toggle>
@@ -29,13 +31,9 @@
 
 </div>
 
-<!--<form class="example-form">
-  <mat-form-field class="example-full-width">
-    <input type="text" placeholder="Escriba aqui" aria-label="Number" matInput[formcontrol]="myControl" [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete">
-      <mat-option *ngFor ="let option of filteredOptions | async" [value]="option">
-        {{option}}
-      </mat-option>
-    </mat-autocomplete>
-  </mat-form-field>
-</form>-->
+
+<form>
+  <label for="search">Buscar Estudiante:</label>
+  <input type="text" id="search" placeholder="Buscar..." (keyup)="imprimirLetra()" #searchInput>
+</form>
+

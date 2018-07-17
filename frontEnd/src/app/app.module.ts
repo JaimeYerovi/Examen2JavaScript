@@ -15,17 +15,22 @@ import {
   MatIconModule,
   MatInputModule, MatOptionModule
 } from "@angular/material";
-import { AutoresYLibrosComponent } from './autores-ylibros/autores-ylibros.component';
+
 import {CardModule, InputTextModule} from "primeng/primeng";
 import {TableModule} from "primeng/table";
 import { Examen2Component } from './examen2/examen2.component';
 import {MatBadgeModule} from "@angular/material/badge";
+import { LoginComponent } from './login/login.component';
+import {Rutas_App} from "./app.routes";
+import {Router, RouterModule} from "@angular/router";
+import { CrearUsuarioComponent } from './crear-usuario/crear-usuario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AutoresYLibrosComponent,
-    Examen2Component
+    Examen2Component,
+    LoginComponent,
+    CrearUsuarioComponent
   ], // Definir todos los componentes a usarse
      // Definin todos los pipes -> transforman datos
   imports: [
@@ -46,7 +51,10 @@ import {MatBadgeModule} from "@angular/material/badge";
     MatAutocompleteModule,
     MatOptionModule,
     MatFormFieldModule,
-
+    RouterModule.forRoot(
+      Rutas_App,
+      {useHash: true}
+    ),
     TableModule
 
 
@@ -57,6 +65,12 @@ import {MatBadgeModule} from "@angular/material/badge";
 // @ALGO() // Decorator
 
 export class AppModule {
+
+  constructor(){
+
+  }
+
+
 
 }
 
